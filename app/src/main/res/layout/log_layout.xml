@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logItemRoot"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="20dp">
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.75">
+    <TextView
+        android:id="@+id/txtGoal"
+        android:paddingLeft="5dp"
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/textborder"
+        android:layout_gravity="center_horizontal"
+        android:text="eeeee"
+        android:textColor="#031550"
+        />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25">
+    <TextView
+        android:paddingLeft="5dp"
+        android:id="@+id/txtTime"
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/textborder"
+        android:text="hhhhhh"
+        android:textColor="#031550"
+        />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="appBackground">#E2E2E2</color>
+
+    <color name="mainTextColor">#690000</color>
+
+    <color name="mainHomeTeam">#001D7E</color>
+    <color name="contentHomeTeam">#A3AEFF</color>
+    <color name="lightHomeTeam">#DDE1FF</color>
+
+    <color name="mainAwayTeam">#01443E</color>
+    <color name="contentAwayTeam">#A2E0B8</color>
+    <color name="lightAwayTeam">#EDFFF6</color>
+
+    <color name="bgTitle">#E23F0D</color>
+    <color name="textTitle">#FCF08F</color>
+    <color name="lightBackground">#CECECE</color>
+    <color name="buttonColor">#EC2369</color>
+
+</resources>

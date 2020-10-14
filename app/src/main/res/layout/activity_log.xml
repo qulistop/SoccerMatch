@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/Theme.AppCompat.Light"
+    tools:context=".LogActivity">
+
+    <TextView
+        android:id="@+id/matchResultTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11pt"
+        android:background="@drawable/scoreborder"
+        android:backgroundTint="#CECECE"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:text="Home Team: 3" />
+    <TextView
+        android:id="@+id/matchScoreTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11pt"
+        android:background="@drawable/scoreborder"
+        android:backgroundTint="#CECECE"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:text="Away Team: 1" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dip"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/logRcView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        style="@style/CardView.Light"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dip"
+        />
+    <Button
+        android:id="@+id/restartBtn"
+        android:text="New Match"
+        android:layout_marginEnd="5dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_btn"
+        android:drawableStart="@drawable/reload_button_icon"
+        android:gravity="end"
+        android:textSize="10pt"
+        android:textColor="@android:color/white"
+        android:inputType="text"
+        />
+</LinearLayout>
